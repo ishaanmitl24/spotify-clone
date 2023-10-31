@@ -1,0 +1,37 @@
+.link a {
+  color: #b3b3b3;
+  text-decoration: none;
+}
+.link a:hover,
+.link a.active {
+  font-weight: 600;
+  font-size: 1rem;
+  color: white;
+}
+.button {
+  background-color: #b3b3b3;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  padding:2px 4px 0;
+  cursor: pointer;
+}
+.heartbutton{
+    background:linear-gradient(120deg,#3416A4,#fff);
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    padding:2px 4px 0;
+    cursor: pointer;
+}
+.language{
+    background: transparent;
+    border: 2px solid #B3B3B3;
+    border-radius: 2rem;
+    padding: 4px 1.1rem ;
+    color:white;
+    display: flex;
+    flex-direction: row;
+    gap:4px;
+    cursor: pointer;
+}

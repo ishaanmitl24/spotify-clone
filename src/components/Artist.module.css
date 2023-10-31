@@ -1,0 +1,9 @@
+.link a{
+    font-weight: 700;
+    color: grey;
+    letter-spacing: 0.01em;
+    text-decoration: none;
+}
+.link a:hover{
+    text-decoration: underline;
+}

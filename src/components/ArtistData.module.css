@@ -1,0 +1,17 @@
+.play{
+    position: absolute;
+    top: 115px;
+    border: none;
+    outline: none;
+    transition:0.3s;
+    opacity: 0;
+    background-color:#1ED760 ;
+    left:125px;
+    padding: 0.5rem 0.6rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.card:hover .play{
+    transition-timing-function:ease-out;
+    opacity: 1;
+}
